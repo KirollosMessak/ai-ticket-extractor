@@ -1,0 +1,100 @@
+{"text": "I can't log in to my account I'm extremely angry right now", "label": {"intent": "account_issue", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "i placed the order by mistake, can you cancel it? order #999082 thanks a lot, you guys are great!", "label": {"intent": "cancel_order", "order_id": "999082", "sentiment": "positive", "urgency": "low", "language": "en"}}
+{"text": "I need to cancel my order before it ships. #308213 Love your store, thank you! Need an answer right now please.", "label": {"intent": "cancel_order", "order_id": "308213", "sentiment": "positive", "urgency": "high", "language": "en"}}
+{"text": "بتوصلوا اسكندرية؟ بصراحة ده مضايقني محتاج رد النهارده ضروري", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "The courier never showed up for #ORD-62218 Honestly disappointed.", "label": {"intent": "delivery_delay", "order_id": "ORD-62218", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "Good morning, I returned the headphones 13 days ago and still no refund. #608976 I need this sorted today.", "label": {"intent": "refund_request", "order_id": "608976", "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "I want a refund for Order number: 744527", "label": {"intent": "refund_request", "order_id": "744527", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "الفلوس اتسحبت بس الأوردر مكتوب مش مدفوع، الأوردر رقم ORD-٢٨٣٥٢ أنا متضايق جداً ومش هتعامل معاكم تاني", "label": {"intent": "payment_issue", "order_id": "ORD-28352", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "عايز أرجع التيشيرت مش عاجبني، طلب رقم 462229", "label": {"intent": "return_exchange", "order_id": "462229", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "Hi team, I need to cancel my order before it ships. order no. 156570", "label": {"intent": "cancel_order", "order_id": "156570", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "بعتولي لون غلط وعايز أبدله، #٣٩٣٥٤٧ أسوأ خدمة شفتها في حياتي بسرعة لو سمحت", "label": {"intent": "return_exchange", "order_id": "393547", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "I returned the backpack 5 days ago and still no refund. order #ORD-29672 Not happy about this.", "label": {"intent": "refund_request", "order_id": "ORD-29672", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "تحية طيبة، لم يصلني الطلب حتى الآن رغم مرور 12 أيام، #382220", "label": {"intent": "delivery_delay", "order_id": "382220", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "3ayez refund lel el order raqam 549351 law sama7t bgd da mdaye2ny", "label": {"intent": "refund_request", "order_id": "549351", "sentiment": "negative", "urgency": "medium", "language": "mixed"}}
+{"text": "does the charger come with a warranty? this is really frustrating.", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "I placed the order by mistake, can you cancel it? #564015 Please reply ASAP", "label": {"intent": "cancel_order", "order_id": "564015", "sentiment": "neutral", "urgency": "high", "language": "en"}}
+{"text": "عايز ألغي الأوردر قبل ما يتشحن، رقم الطلب ٦١٠٩٧٠ بجد انتو أحسن متجر", "label": {"intent": "cancel_order", "order_id": "610970", "sentiment": "positive", "urgency": "low", "language": "ar"}}
+{"text": "Good morning, I ordered a blender 18 days ago and nothing yet", "label": {"intent": "delivery_delay", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "Cancel order 117884, I found it cheaper somewhere else", "label": {"intent": "cancel_order", "order_id": "117884", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "لم يتم استرداد المبلغ رغم إرجاع المنتج منذ 5 أيام، طلب رقم ORD-٦٨٠٩٠ هذا الأمر مزعج للغاية.", "label": {"intent": "refund_request", "order_id": "ORD-68090", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "Wrong color was sent, I need to exchange it. Order number: 828062", "label": {"intent": "return_exchange", "order_id": "828062", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "hi team, the box was crushed and the blender inside is damaged, order #870512", "label": {"intent": "damaged_product", "order_id": "870512", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "فين الـ order بتاعي؟ الـ tracking مش بيتحرك، رقم الأوردر 147727 bgd da mdaye2ny urgent لو سمحت", "label": {"intent": "delivery_delay", "order_id": "147727", "sentiment": "negative", "urgency": "high", "language": "mixed"}}
+{"text": "good morning, i ordered a jacket 18 days ago and nothing yet i need this sorted today.", "label": {"intent": "delivery_delay", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "fe offers el osbo3 da? ana met3asab gedan", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "mixed"}}
+{"text": "الفيزا مش راضية تدفع خالص ده كلام مش مقبول!!", "label": {"intent": "payment_issue", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "I returned the charger 18 days ago and still no refund. order #800840 Honestly disappointed. Please reply ASAP.", "label": {"intent": "refund_request", "order_id": "800840", "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "hello يا جماعة، اللابتوب فيه defect من أول يوم، el order raqam 468497", "label": {"intent": "damaged_product", "order_id": "468497", "sentiment": "negative", "urgency": "medium", "language": "mixed"}}
+{"text": "i was charged twice for Order number: ORD-94179 this is really frustrating.", "label": {"intent": "payment_issue", "order_id": "ORD-94179", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "received my watch with a cracked screen, order #529704", "label": {"intent": "damaged_product", "order_id": "529704", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "3ayez refund lel order 838383 law sama7t merci awy, ento gamdeen", "label": {"intent": "refund_request", "order_id": "838383", "sentiment": "positive", "urgency": "low", "language": "mixed"}}
+{"text": "Hi team, My card payment keeps failing at checkout", "label": {"intent": "payment_issue", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "How do I change the email on my account? Love your store, thank you!", "label": {"intent": "account_issue", "order_id": null, "sentiment": "positive", "urgency": "low", "language": "en"}}
+{"text": "el sama3at wesel maksoor, el order raqam ORD-29435", "label": {"intent": "damaged_product", "order_id": "ORD-29435", "sentiment": "negative", "urgency": "medium", "language": "mixed"}}
+{"text": "ينفع أبدل الجاكيت بمقاس تاني؟ طلب رقم 331654", "label": {"intent": "return_exchange", "order_id": "331654", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "أرجو إلغاء #ORD-٦٧٦٢٤ هذا غير مقبول إطلاقاً!", "label": {"intent": "cancel_order", "order_id": "ORD-67624", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "please delete my account i'm extremely angry right now.", "label": {"intent": "account_issue", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "I ordered a blender 13 days ago and nothing yet This is unacceptable!!", "label": {"intent": "delivery_delay", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "رجعت الخلاط من 3 يوم ولسه الفلوس مرجعتش، الأوردر رقم 17619 ضروري جداً", "label": {"intent": "refund_request", "order_id": "17619", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "wrong color was sent, i need to exchange it. order no. 65153", "label": {"intent": "return_exchange", "order_id": "65153", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "أبي أبدل الجاكيت بمقاس ثاني، طلب رقم ٩٧٠٨٨٥", "label": {"intent": "return_exchange", "order_id": "970885", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "اتخصم مني الفلوس مرتين، #٣٤٨٦٨٨ ده كلام مش مقبول!!", "label": {"intent": "payment_issue", "order_id": "348688", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "Can I exchange the shoes for a different size? #234517", "label": {"intent": "return_exchange", "order_id": "234517", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "Does the blender come with a warranty? Worst service ever. URGENT!", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "Give me my money back, the headphones is nothing like the photos Please reply ASAP.", "label": {"intent": "refund_request", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "I returned the blender 16 days ago and still no refund. order #ORD-96424 Honestly disappointed.", "label": {"intent": "refund_request", "order_id": "ORD-96424", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "how do i return an item? #608511 thanks a lot, you guys are great!", "label": {"intent": "return_exchange", "order_id": "608511", "sentiment": "positive", "urgency": "low", "language": "en"}}
+{"text": "Cancel Order number: ORD-73016, I found it cheaper somewhere else Really appreciate your help 🙏", "label": {"intent": "cancel_order", "order_id": "ORD-73016", "sentiment": "positive", "urgency": "low", "language": "en"}}
+{"text": "اتخصم مني الفلوس مرتين، الأوردر رقم 688300", "label": {"intent": "payment_issue", "order_id": "688300", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "في عروض الأسبوع ده؟ بجد انتو أحسن متجر محتاج رد النهارده ضروري", "label": {"intent": "general_question", "order_id": null, "sentiment": "positive", "urgency": "high", "language": "ar"}}
+{"text": "Hello, I returned the t-shirt 15 days ago and still no refund. order #ORD-55563", "label": {"intent": "refund_request", "order_id": "ORD-55563", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "I need to cancel my order before it ships. order #209328 Really appreciate your help 🙏", "label": {"intent": "cancel_order", "order_id": "209328", "sentiment": "positive", "urgency": "low", "language": "en"}}
+{"text": "أبي ألغي طلب رقم 106002 لو سمحتوا خدمة سيئة جداً ولا عاد أطلب منكم", "label": {"intent": "cancel_order", "order_id": "106002", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "How long does a refund take? I sent back order ORD-73036 last week. Honestly disappointed.", "label": {"intent": "refund_request", "order_id": "ORD-73036", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "The box was crushed and the charger inside is damaged, #ORD-62617 This is unacceptable!! I need this sorted today.", "label": {"intent": "damaged_product", "order_id": "ORD-62617", "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "المندوب مجاش خالص النهارده، #810142 ضروري جداً", "label": {"intent": "delivery_delay", "order_id": "810142", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "How do I return an item? #996610", "label": {"intent": "return_exchange", "order_id": "996610", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "توصلون الرياض؟ مو راضي أبد", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "هل يتوفر الدفع عند الاستلام؟ الأمر عاجل جداً.", "label": {"intent": "payment_issue", "order_id": null, "sentiment": "neutral", "urgency": "high", "language": "ar"}}
+{"text": "Hi team, Do you have any discounts this week? Please reply ASAP.", "label": {"intent": "general_question", "order_id": null, "sentiment": "neutral", "urgency": "high", "language": "en"}}
+{"text": "عايز فلوسي ترجع لو سمحت، #٢٥١٢٠٥", "label": {"intent": "refund_request", "order_id": "251205", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "emta el jacket hayewsal? order 453772", "label": {"intent": "delivery_delay", "order_id": "453772", "sentiment": "neutral", "urgency": "low", "language": "mixed"}}
+{"text": "تم خصم المبلغ مرتين من بطاقتي، #ORD-81732 هذا غير مقبول إطلاقاً!", "label": {"intent": "payment_issue", "order_id": "ORD-81732", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "Cancel Order number: ORD-21853, I found it cheaper somewhere else Love your store, thank you! Need an answer right now please.", "label": {"intent": "cancel_order", "order_id": "ORD-21853", "sentiment": "positive", "urgency": "high", "language": "en"}}
+{"text": "الساعة وصلني خربان، الأوردر رقم ١١٧٨٩٥", "label": {"intent": "damaged_product", "order_id": "117895", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "i want a refund for Order number: 960129 honestly disappointed.", "label": {"intent": "refund_request", "order_id": "960129", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "اتخصم مني الفلوس مرتين، رقم الطلب ٢٣٦٧٤٥", "label": {"intent": "payment_issue", "order_id": "236745", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "أرجو إلغاء طلب رقم ORD-٣٩٦٠٠", "label": {"intent": "cancel_order", "order_id": "ORD-39600", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "السلام عليكم ورحمة الله، هل يتوفر الشاحن بألوان أخرى؟", "label": {"intent": "general_question", "order_id": null, "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "أرجو إلغاء الأوردر رقم ORD-76512 هذا الأمر مزعج للغاية.", "label": {"intent": "cancel_order", "order_id": "ORD-76512", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "Hello, I ordered a headphones 2 days ago and nothing yet", "label": {"intent": "delivery_delay", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "السلام عليكم أبي أسترجع فلوسي، رقم الطلب 290501", "label": {"intent": "refund_request", "order_id": "290501", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "What are your working hours? Honestly disappointed.", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "ممكن تتأكدون وين وصل رقم الطلب 813248؟ والله شي يضايق مستعجل مرة", "label": {"intent": "delivery_delay", "order_id": "813248", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "أرغب في استبدال الجاكيت بمقاس آخر، الأوردر رقم 520018 خدمة سيئة للغاية!", "label": {"intent": "return_exchange", "order_id": "520018", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "What are your working hours? Worst service ever. URGENT!", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "i want a refund for order no. 22391", "label": {"intent": "refund_request", "order_id": "22391", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "i ordered a backpack 13 days ago and nothing yet this is unacceptable!! need an answer right now please.", "label": {"intent": "delivery_delay", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "Hi team, My blender stopped working after 7 days. order 602866 Please reply ASAP.", "label": {"intent": "damaged_product", "order_id": "602866", "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "لم يتم استرداد المبلغ رغم إرجاع المنتج منذ 18 أيام، طلب رقم ١١٤٠١٠ أرجو الرد بشكل عاجل.", "label": {"intent": "refund_request", "order_id": "114010", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "الشاحن فيه defect من أول يوم، order 990867 3ayez rad enharda darory", "label": {"intent": "damaged_product", "order_id": "990867", "sentiment": "negative", "urgency": "high", "language": "mixed"}}
+{"text": "أرجو إلغاء #962135 هذا الأمر مزعج للغاية.", "label": {"intent": "cancel_order", "order_id": "962135", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "does the blender come with a warranty? honestly disappointed. please reply asap", "label": {"intent": "general_question", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "بعتولي لون غلط وعايز أبدله، الأوردر رقم ORD-١٣٦٦٥", "label": {"intent": "return_exchange", "order_id": "ORD-13665", "sentiment": "negative", "urgency": "medium", "language": "ar"}}
+{"text": "ما أقدر أدخل حسابي هذا شي ما ينقبل", "label": {"intent": "account_issue", "order_id": null, "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "Please cancel order ORD-60002 URGENT!", "label": {"intent": "cancel_order", "order_id": "ORD-60002", "sentiment": "neutral", "urgency": "high", "language": "en"}}
+{"text": "I placed the order by mistake, can you cancel it? order no. ORD-28568 Worst service ever.", "label": {"intent": "cancel_order", "order_id": "ORD-28568", "sentiment": "negative", "urgency": "high", "language": "en"}}
+{"text": "The money was taken from my account but the order shows unpaid. Order number: 11724", "label": {"intent": "payment_issue", "order_id": "11724", "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "ممكن تشوفولي طلب رقم ORD-٦٨٨٦٨ وصل لفين؟", "label": {"intent": "delivery_delay", "order_id": "ORD-68868", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "ينفع أبدل الجزمة بمقاس تاني؟ #269958", "label": {"intent": "return_exchange", "order_id": "269958", "sentiment": "neutral", "urgency": "low", "language": "ar"}}
+{"text": "hello, please refund my money for the jacket, Order number: 582697", "label": {"intent": "refund_request", "order_id": "582697", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "Hello, I can't log in to my account", "label": {"intent": "account_issue", "order_id": null, "sentiment": "negative", "urgency": "medium", "language": "en"}}
+{"text": "مساكم الله بالخير، أبي ألغي الأوردر رقم ٩٩٥٦٦٨ لو سمحتوا تكفون بسرعة", "label": {"intent": "cancel_order", "order_id": "995668", "sentiment": "neutral", "urgency": "high", "language": "ar"}}
+{"text": "اتخصم مني الفلوس مرتين، #ORD-٣٥٤٧٢ ضروري جداً", "label": {"intent": "payment_issue", "order_id": "ORD-35472", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "Hi there, How do I return an item? #ORD-99753", "label": {"intent": "return_exchange", "order_id": "ORD-99753", "sentiment": "neutral", "urgency": "low", "language": "en"}}
+{"text": "أبي أسترجع فلوسي، #٥٩١٠٤٥ هذا شي ما ينقبل", "label": {"intent": "refund_request", "order_id": "591045", "sentiment": "negative", "urgency": "high", "language": "ar"}}
+{"text": "هل فيه delivery لجدة؟ thanks بجد انتو جامدين", "label": {"intent": "general_question", "order_id": null, "sentiment": "positive", "urgency": "low", "language": "mixed"}}
+{"text": "hi ya gama3a, اتخصم مني double charge على #453708", "label": {"intent": "payment_issue", "order_id": "453708", "sentiment": "negative", "urgency": "medium", "language": "mixed"}}
+{"text": "ezayoko, لو سمحت cancel لـ رقم الأوردر 483954", "label": {"intent": "cancel_order", "order_id": "483954", "sentiment": "neutral", "urgency": "low", "language": "mixed"}}
+{"text": "Hi team, I need to cancel my order before it ships. order no. 995055", "label": {"intent": "cancel_order", "order_id": "995055", "sentiment": "neutral", "urgency": "low", "language": "en"}}

@@ -1,0 +1,4 @@
+# For the demo app (app.py). Training runs on Colab: see train_colab.ipynb.
+torch
+transformers>=4.46
+gradio>=5.0
