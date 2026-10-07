@@ -15,7 +15,8 @@ A small language model (**Qwen2.5-1.5B-Instruct**) fine-tuned with **LoRA** to t
 }
 ```
 
-> **Live demo:** _coming soon_ · **Model:** _coming soon_
+
+**Result: all-fields-correct accuracy went from 32% to 92%** on a hand-written test set.
 
 ## Why this is useful
 
@@ -33,13 +34,29 @@ Measured on **60 hand-written test messages** (31 English, 20 Arabic, 9 mixed) t
 
 | Metric | Base model | Fine-tuned |
 |---|---|---|
-| Valid JSON | _tbd_ | _tbd_ |
-| Intent accuracy | _tbd_ | _tbd_ |
-| Order ID accuracy | _tbd_ | _tbd_ |
-| Sentiment accuracy | _tbd_ | _tbd_ |
-| Urgency accuracy | _tbd_ | _tbd_ |
-| Language accuracy | _tbd_ | _tbd_ |
-| **All fields correct** | _tbd_ | _tbd_ |
+| Valid JSON | 100% | 100% |
+| Intent accuracy | 75% | **97%** |
+| Order ID accuracy | 92% | **100%** |
+| Sentiment accuracy | 85% | **97%** |
+| Urgency accuracy | 60% | **98%** |
+| Language accuracy | 75% | **97%** |
+| **All fields correct** | **32%** | **92%** |
+
+All fields correct, by language:
+
+| Language | Base model | Fine-tuned |
+|---|---|---|
+| English (31) | 42% | **97%** |
+| Arabic (20) | 30% | **90%** |
+| Mixed / Franco-Arabic (9) | 0% | **78%** |
+
+**What fine-tuning fixed:** the base model already produced valid JSON, but it didn't follow the labeling rules. It guessed urgency, mislabeled Arabic and Franco-Arabic messages, and confused intents. After fine-tuning it applies the rules consistently.
+
+**The remaining 5 errors:**
+- 2 × language: Arabic messages with a few English words (`payment`, `refund please`) labeled `ar` instead of `mixed`. This is the hardest boundary to define.
+- 1 × invented intent: `delivery_status` instead of `delivery_delay`. In production, validate the output against the schema and retry or fall back.
+- 1 × Gulf dialect: "أبي أرجع الجزمة لأن المقاس صغير" (I want to return the shoes, the size is small) rated negative instead of neutral. That's arguably a fair reading.
+- 1 × "عندكم توصيل للدمام؟ مشكورين" (do you deliver to Dammam? thanks) read as a delivery problem instead of a general question.
 
 Every prediction is saved in [`results/`](results/) so the numbers can be checked.
 

@@ -1,0 +1,1099 @@
+{
+  "model": "unsloth/Qwen2.5-1.5B-Instruct",
+  "metrics": {
+    "valid_json": 1.0,
+    "intent": 0.75,
+    "order_id": 0.9166666666666666,
+    "sentiment": 0.85,
+    "urgency": 0.6,
+    "language": 0.75,
+    "exact_match": 0.31666666666666665
+  },
+  "exact_match_by_language": {
+    "en": 0.41935483870967744,
+    "ar": 0.3,
+    "mixed": 0.0
+  },
+  "predictions": [
+    {
+      "text": "Hey, it's been two weeks and my order 58213 is nowhere to be seen.",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "58213",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"58213\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "58213",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Could you tell me the delivery status of ORD-44721?",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "ORD-44721",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"ORD-44721\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "ORD-44721",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Package marked as delivered but I never got it!! Order #771204. Fix this NOW.",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "771204",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"771204\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "771204",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "I'd like my money back for order 3390, the jacket was poor quality.",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": "3390",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"3390\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "3390",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Hi, just checking how many days a refund usually takes?",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"ORD-90765\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "ORD-90765",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Refund still not processed after 3 weeks, order no. 120044. I need this resolved today.",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": "120044",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"120044\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "120044",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Can I swap these sneakers for a size 43? Order 66190",
+      "gold": {
+        "intent": "return_exchange",
+        "order_id": "66190",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"return_exchange\",\n  \"order_id\": \"66190\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "return_exchange",
+        "order_id": "66190",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Thank you for the fast delivery! The dress is lovely but a bit tight, can I exchange it for a medium? #90321",
+      "gold": {
+        "intent": "return_exchange",
+        "order_id": "90321",
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"return_exchange\",\n  \"order_id\": \"#90321\",\n  \"sentiment\": \"positive\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "return_exchange",
+        "order_id": "#90321",
+        "sentiment": "positive",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "You sent me the wrong item. I ordered a black hoodie and got a grey one. ORD-10557",
+      "gold": {
+        "intent": "return_exchange",
+        "order_id": "ORD-10557",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"ORD-10557\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "ORD-10557",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Please cancel order 4410, I don't need it anymore.",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "4410",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"4410\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "4410",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Cancel my order immediately, it's been processing for ages and I'm fed up. #882910",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "882910",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"882910\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "882910",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "My bank shows two charges for the same order, ORD-73102.",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": "ORD-73102",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"ORD-73102\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "ORD-73102",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Is it possible to pay with Apple Pay?",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"payment_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Checkout keeps saying 'payment declined' even though my card works everywhere else. Pretty annoying.",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"payment_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "The vase came shattered into pieces. Order 50017.",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "50017",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"50017\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "50017",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "My new headphones only work on one side. order #31877",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "31877",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"31877\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "31877",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Screen flickering on the laptop I got last week, this is absolutely unacceptable! ORD-29934",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "ORD-29934",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"ORD-29934\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "ORD-29934",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "I forgot my password and the reset link isn't working",
+      "gold": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"password_reset\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "password_reset",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "How can I update the phone number on my profile?",
+      "gold": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"update_phone_number\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "update_phone_number",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Hello! Do you deliver to Hurghada?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Love your products, thanks! Will the blue mug be restocked soon?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"general_question\",\n  \"order_id\": null,\n  \"sentiment\": \"positive\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Do you have a physical store in Cairo?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"general_question\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Are there any promo codes for first-time customers?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "my order 7781 is late again, seriously the worst delivery ever",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "7781",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"7781\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "7781",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "need to cancel ORD-55120 asap please",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "ORD-55120",
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"ORD-55120\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "ORD-55120",
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Thanks so much for the quick help yesterday! One more question, does the smartwatch support Arabic?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"general_question\",\n  \"order_id\": null,\n  \"sentiment\": \"positive\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "Account locked after too many login attempts. Please help urgently.",
+      "gold": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"account_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Requesting a refund for #60234, the item didn't match the description",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": "60234",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"#60234\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "#60234",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "I paid but didn't receive any confirmation, order 412256",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": "412256",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"412256\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "412256",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "The blender arrived with a missing lid. Order number 7023.",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "7023",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"7023\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "7023",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "Hi, is the black jacket available in XL?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"return_exchange\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "return_exchange",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "بقالي أسبوعين مستني الأوردر رقم ٤٨٢٩١ ومحدش بيرد عليا",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "48291",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"48291\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "48291",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "لو سمحت عايز أعرف الشحنة بتاعتي هتوصل امتى؟ رقم الطلب 30566",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "30566",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"30566\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "30566",
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "الساعة اللي جاتلي مخدوشة ومش شغالة، الطلب ORD-81200",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "ORD-81200",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"ORD-81200\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "ORD-81200",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "عايز ألغي الطلب ٧٧١٠ ضروري قبل ما يتشحن النهارده",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "7710",
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"7710\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "7710",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "الفلوس اتخصمت مني ومفيش أوردر اتعمل خالص، حرام كده!!",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"payment_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "شكراً على الخدمة الحلوة، ينفع أغير التيشيرت لمقاس لارج؟ #٥٥٠٣٢",
+      "gold": {
+        "intent": "return_exchange",
+        "order_id": "55032",
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"return_exchange\",\n  \"order_id\": \"LAR-55032\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "return_exchange",
+        "order_id": "LAR-55032",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "رجعت الشنطة من عشر أيام ولسه مستني الفلوس ترجع، الطلب 90881",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": "90881",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"90881\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "90881",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "ازاي أغير الإيميل بتاع الحساب؟",
+      "gold": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"account_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "عندكم فرع في المنصورة؟",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"general_question\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "أسوأ تجربة شراء! الموبايل وصل شاشته مكسورة، رقم الطلب ٦٢٠٤٨",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "62048",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"62048\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "62048",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "السلام عليكم، طلبي رقم ٣٤٥٦٧ متأخر وايد، متى يوصل؟",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "34567",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"34567\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "34567",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "أبي أرجع الجزمة لأن المقاس صغير، رقم الطلب 81120",
+      "gold": {
+        "intent": "return_exchange",
+        "order_id": "81120",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"return_exchange\",\n  \"order_id\": \"81120\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "return_exchange",
+        "order_id": "81120",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "انسحب المبلغ من البطاقة مرتين، أبي حل اليوم",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"payment_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "عندكم توصيل للدمام؟ مشكورين",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "أبي أكنسل الطلب ORD-60018",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "ORD-60018",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"ORD-60018\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "ORD-60018",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "أرجو استرداد قيمة الطلب رقم ١٢٠٩٣ لعدم مطابقته للوصف",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": "12093",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"12093\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "12093",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "لا أستطيع الدخول إلى حسابي منذ يومين",
+      "gold": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"account_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "هل يمكن إلغاء الطلب رقم 45120؟",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "45120",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"45120\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "45120",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "وصلت السماعات معطلة تماماً، وهذا أمر غير مقبول إطلاقاً! الطلب ٨٨٠٢١",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "88021",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"damaged_product\",\n  \"order_id\": \"88021\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "damaged_product",
+        "order_id": "88021",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "ما هي طرق الدفع المتاحة لديكم؟",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"payment_issue\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "payment_issue",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "el order bta3i 77120 lessa mawsalsh w ana mestanny men 10 ayam",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "77120",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"77120\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "77120",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "3ayez a3mel return lel shoes, el size soghayar. #40019",
+      "gold": {
+        "intent": "return_exchange",
+        "order_id": "40019",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"return_exchange\",\n  \"order_id\": \"40019\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "return_exchange",
+        "order_id": "40019",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "الـ payment اتعملت مرتين على الـ order رقم 66012، please fix it بسرعة",
+      "gold": {
+        "intent": "payment_issue",
+        "order_id": "66012",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"payment_issue\",\n  \"order_id\": \"66012\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "payment_issue",
+        "order_id": "66012",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "en"
+      }
+    },
+    {
+      "text": "shokran 3al service el gamda! hal fe discount 3al laptops?",
+      "gold": {
+        "intent": "general_question",
+        "order_id": null,
+        "sentiment": "positive",
+        "urgency": "low",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"ORD-90123\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "ORD-90123",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "el charger wesel msh shaghal khales, ORD-30440",
+      "gold": {
+        "intent": "damaged_product",
+        "order_id": "ORD-30440",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"ORD-30440\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "ORD-30440",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "عايز cancel للأوردر 9021 لو سمحت",
+      "gold": {
+        "intent": "cancel_order",
+        "order_id": "9021",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"cancel_order\",\n  \"order_id\": \"9021\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "cancel_order",
+        "order_id": "9021",
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "en"
+      }
+    },
+    {
+      "text": "msh 3aref a8ayar el password, el code msh byewsal",
+      "gold": {
+        "intent": "account_issue",
+        "order_id": null,
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"password_reset\",\n  \"order_id\": null,\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"low\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "password_reset",
+        "order_id": null,
+        "sentiment": "neutral",
+        "urgency": "low",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "refund please لطلب رقم 51177، المنتج مش زي الصورة خالص",
+      "gold": {
+        "intent": "refund_request",
+        "order_id": "51177",
+        "sentiment": "negative",
+        "urgency": "medium",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"refund_request\",\n  \"order_id\": \"51177\",\n  \"sentiment\": \"negative\",\n  \"urgency\": \"high\",\n  \"language\": \"ar\"\n}\n```",
+      "parsed": {
+        "intent": "refund_request",
+        "order_id": "51177",
+        "sentiment": "negative",
+        "urgency": "high",
+        "language": "ar"
+      }
+    },
+    {
+      "text": "emta el delivery bta3 ORD-12876? محتاجه ضروري النهارده",
+      "gold": {
+        "intent": "delivery_delay",
+        "order_id": "ORD-12876",
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "mixed"
+      },
+      "raw_output": "```json\n{\n  \"intent\": \"delivery_delay\",\n  \"order_id\": \"ORD-12876\",\n  \"sentiment\": \"neutral\",\n  \"urgency\": \"high\",\n  \"language\": \"en\"\n}\n```",
+      "parsed": {
+        "intent": "delivery_delay",
+        "order_id": "ORD-12876",
+        "sentiment": "neutral",
+        "urgency": "high",
+        "language": "en"
+      }
+    }
+  ]
+}
